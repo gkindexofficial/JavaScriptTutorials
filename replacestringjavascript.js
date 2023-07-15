@@ -1,0 +1,12 @@
+var string1='student who gets first marks that student will be eligible for scholarship';
+let string2='string created with block scope';
+const string3='this is a constant string never gets changed';
+const string1replace = string1.replace('This','It');
+const string2replace = string2.replace('created','declared');
+const string3replace = string3.replace('this','It');
+console.log('original string = '+string1);
+console.log('replaced string = '+string1replace);
+console.log('original string = '+string2);
+console.log('replaced string = '+string2replace);
+console.log('original string = '+string3);
+console.log('replaced string = '+string3replace);
